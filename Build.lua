@@ -16,7 +16,7 @@ project "server"
    cppdialect "C++17"
    targetdir "Binaries/%{cfg.buildcfg}"
    staticruntime "off"
-   toolset "clang"
+   toolset "msc"
 
    files { "src/**.h", "src/**.cpp" }
 
